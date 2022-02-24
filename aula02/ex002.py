@@ -1,4 +1,3 @@
-disciplina = 'Lógica de programação e Algoritmos';
-nota = 8.5;
-print(disciplina);
-print(nota);
+# receber 3 valores determinados pelo professor e calcular a media
+res = (23 + 19 + 31) / 3;
+print (res);
