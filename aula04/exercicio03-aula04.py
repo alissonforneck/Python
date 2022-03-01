@@ -2,16 +2,16 @@ ingresso = 0
 quantidadeIngressos = 0
 mediaIdade = 0
 while True:
-    idade=int(input('Digite a sua idade: '))
-    continuar = input('Deseja continuar? ')
+    idade=input('Digite a sua idade: ')
+    if idade == 'sair':
+        break
+    idade = int(idade)
     if idade > 3:
         ingresso += 15
     elif idade > 12:
         ingresso += 30
     mediaIdade += idade
     quantidadeIngressos += 1
-    if continuar == 'sair':
-        break
 mediaIdade /= quantidadeIngressos
 print('Quantidade de ingressos vendidos: {}'.format(quantidadeIngressos))
 print('Dinheiro arrecadado: {}'.format(ingresso))
