@@ -1,0 +1,3 @@
+zelda ; nintnedo
+mario ; play
+Nome do jogo: pokemon ; plataforma: N64
