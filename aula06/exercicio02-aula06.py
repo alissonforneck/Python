@@ -29,8 +29,8 @@ def vencedor(jogador1, jogador2):
             v1 += 1
         elif jogador2 == 3: #jogador 2 jogou tesoura
             empate += 1
-
-            
+    resultados = [v1,v2, empate]
+    return resultados
 #programa principal
 print('JOKENPO')
 print('1 - Pedra')
@@ -49,3 +49,5 @@ while True:
         break
     j2 = random.randint(1,3)
     jogadas.append([j1, j2])
+    print(vencedor(j1, j2))
+print(jogadas)
