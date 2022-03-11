@@ -49,5 +49,8 @@ while True:
         break
     j2 = random.randint(1,3)
     jogadas.append([j1, j2])
+    for jogada in jogadas:
+        for dado in jogada:
+            print(dado, end=' ')
+        print()
     print(vencedor(j1, j2))
-print(jogadas)
